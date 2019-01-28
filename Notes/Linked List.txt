@@ -1,0 +1,15 @@
+Linked List advntg over arrays:
+1) Variable Size, hence better memmory efficiency
+2) Easy to insert/delete intermediate elements
+
+Disadvantages :
+1)Extra Space required for pointer along with each element
+2)Reverse traversal is very difficult, making doubly linked list means 
+   more space is required for two pointers with each element
+3)Doesnt help in efficient usage of cache as locality of refrence principle 
+ works well for arrays. A cached block of memory might not contain any other
+ useful element (apart from the element accessed which caused caching )as 
+ succesive elements are stored at different places in memory
+4)Accesing elements in a long linked list might be slow 
+
+ 
